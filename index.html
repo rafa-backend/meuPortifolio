@@ -8,67 +8,64 @@
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="responsividade.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap"
-     rel="stylesheet">
+        rel="stylesheet">
     <title>Meu Portfólio</title>
 </head>
+
 <body>
     <header>
         <h1>RAFAEL SANTOS</h1>
-      
-        <div class="menu-icon" onclick="toggleMenu()">
-          <img src="/icones/icons8-cardápio-64.png" alt="menu" width="30" height="30">
-        </div>
-      
-        <nav id="navbar">
-          <a href="#home">Início</a>
-          <a href="#sobre">Sobre</a>
-          <a href="#projetos">Projetos</a>
-          <a href="#curriculo">Currículo</a>
-          <a href="#contato">Contato | Redes Sociais</a>
-        </nav>
-    </header>  
 
-    <section id="home">
-        <h2>Bem-vindo ao meu portfólio</h2>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <img src="/icones/icons8-cardápio-64.png" alt="menu" width="30" height="30">
+        </div>
+
+        <nav id="navbar">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#curriculo">Currículo</a>
+            <a href="#contato">Contato | Redes Sociais</a>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <section >
+            <h2>Bem-vindo ao meu portfólio</h2>
             <h3>Certificados</h3>
             <a href="/pdf/Certificado JavaScript.pdf" class="button" target="_blank">JavaScript</a>
-
             <a href="/pdf/Certificado HTML5-e-CSS3.pdf" class="button" target="_blank">HTML & CSS</a>
-
-            <a href="/pdf/Git & GitHub b7Web.pdf" class="button" target="_blank">Git &  GitHub</a>
-
+            <a href="/pdf/Git & GitHub b7Web.pdf" class="button" target="_blank">Git & GitHub</a>
             <a href="/pdf/Certificado MySQL.pdf" class="button" target="_blank">MySQL</a>
-
+        </section>
     </section>
 
     <section id="projetos">
-        <h2>Meus Projetos</h2>
-        <div class="projetos-container">
-            
-            <div class="projeto">
-                <p>Cristiano Ronaldo</p>
-                <img src="/Imagem/Cristiano Ronaldo.PNG" alt="Projeto 1">
-                <a href="https://github.com/rafa-backend/projeto-pessoal" target="_blank">Repositorio</a>
-                <a href="https://projeto-pessoal-ruddy.vercel.app/" target="_blank">Projeto</a>
+        <section>
+            <h2>Meus Projetos</h2>
+            <div class="projetos-container">
+                <div class="projeto">
+                    <p>Cristiano Ronaldo</p>
+                    <img src="/Imagem/Cristiano Ronaldo.PNG" alt="Projeto 1">
+                    <a href="https://github.com/rafa-backend/projeto-pessoal" target="_blank">Repositorio</a>
+                    <a href="https://projeto-pessoal-ruddy.vercel.app/" target="_blank">Projeto</a>
+                </div>
+        
+                <div class="projeto">
+                    <p>Android</p>
+                    <img src="/Imagem/celular.PNG" alt="Projeto 2">
+                    <a href="https://github.com/rafa-backend/projeto-redes-sociais" target="_blank">Repositorio</a>
+                    <a href="https://projeto-redes-sociais-psi.vercel.app/" target="_blank">Projeto</a>
+                </div>
+                <div class="projeto">
+                    <p>Jogo de ataque</p>
+                    <br>
+                    <img src="/Imagem/Joguinho.PNG" alt="Projeto 3">
+                    <a href="https://github.com/rafa-backend/Projeto-luta-B7WEB" target="_blank">Repositorio</a>
+                    <a href="https://jogodeluta.vercel.app/" target="_blank">Projeto</a>
+                </div>
             </div>
-
-
-            <div class="projeto">
-                <p>Android</p>
-                <img src="/Imagem/celular.PNG" alt="Projeto 2">
-                <a href="https://github.com/rafa-backend/projeto-redes-sociais" target="_blank">Repositorio</a>
-                <a href="https://projeto-redes-sociais-psi.vercel.app/" target="_blank">Projeto</a>
-               
-            </div>
-
-            <div class="projeto">
-                <p>Jogo de ataque</p>
-                <br>
-                <img src="/Imagem/Joguinho.PNG" alt="Projeto 3">
-                <a href="https://github.com/rafa-backend/Projeto-luta-B7WEB" target="_blank">Repositorio</a>
-                <a href="https://jogodeluta.vercel.app/" target="_blank">Projeto</a>
-            </div>
-        </div>
+        </section>
     </section>
 
     <section id="habilidades">
@@ -90,15 +87,23 @@
 
     <section id="sobre">
         <h2>Sobre mim</h2>
-        <img src="/Imagem/foto perfil.jpg"alt="Minha foto" class="perfil">
-        <p>Sou uma pessoa responsável, comprometida em cumprir prazos e entregar resultados de qualidade. Possuo um forte senso de trabalho em equipe, colaborando de forma positiva e proativa para alcançar os objetivos comuns. Tenho uma grande vontade de aprender, sempre buscando adquirir novos conhecimentos e me atualizar continuamente. Além disso, sou altamente adaptável, capaz de lidar com mudanças e novos desafios de maneira tranquila e eficaz.
+        <img src="/Imagem/foto perfil.jpg" alt="Minha foto" class="perfil">
+        <p>
+            Me chamo Rafael Santos, atualmente tenho 28 anos. Sou uma pessoa responsável, com muita vontade de aprender
+            e evoluir na área de tecnologia. Estou sempre em busca de novos conhecimentos e gosto de me manter
+            atualizado. Me adapto com facilidade e encaro mudanças e desafios com tranquilidade e disposição.
 
-            Apaixonado por tecnologia e em transição para a área de TI, iniciei minha jornada em 2022 com o curso técnico de Informática pelo Senac Santo André, onde me formei em 2023. Durante essa experiência, adquiri conhecimentos sólidos em HTML, CSS, JavaScript, MySQL, montagem de computadores, instalação de hardware e software , além de redes de computadores. Sigo expandindo minhas habilidades. Atualmente, estou iniciando a faculdade para continuar me aprimorando e evoluindo na área.
-            Sou uma pessoa dedicada, com uma enorme vontade de aprender e crescer. Acredito que cada desafio é uma oportunidade para aprender algo novo e evoluir. Estou em busca de uma oportunidade para colocar em prática o que sei, aprender ainda mais e contribuir para o desenvolvimento de soluções inovadoras na área de tecnologia.</p>
+            Apaixonado por tecnologia e em transição para a área de TI, iniciei minha jornada em 2022 com o curso
+            técnico de Informática pelo Senac Santo André, onde me formei em 2023. Durante essa experiência, adquiri
+            conhecimentos em HTML, CSS, JavaScript, MySQL, montagem de computadores, instalação de hardware e software,
+            além de redes de computadores.
+
+            Atualmente, estou cursando faculdade na área para continuar me desenvolvendo e aprimorando minhas
+            habilidades. Acredito que cada desafio é uma chance de crescer e aprender algo novo. Busco uma oportunidade
+            para aplicar na prática o que venho estudando, seguir aprendendo e contribuir com soluções criativas e
+            eficazes na área de tecnologia.
+        </p>
     </section>
-
-
-
 
     <section id="curriculo">
         <h2>Currículo</h2>
@@ -115,7 +120,7 @@
                 </p>
                 <p><strong>Experiência:</strong>
                     Eco Futuro Industrial e Comercio de Maquinas.
-                    <strong>Cargo:</strong> 
+                    <strong>Cargo:</strong>
                     Operador de Estação de tratamento Agua | Efluente - Pleno | 07/23 - Atual - CLT
                     <br>
                     <br>
@@ -123,9 +128,16 @@
 
                 </p>
                 <p><strong>Habilidades:</strong>
-                Boa Comunicação, CNH categoria A|B, Vontade de aprender, Boa Adaptabilidade, Disponibilidade, Bom desenvolvimento em equipes.
+                    Boa Comunicação, CNH categoria A|B, Vontade de aprender, Boa Adaptabilidade, Disponibilidade, Bom
+                    desenvolvimento em equipes.
                 </p>
-                <a href="/pdf/Rafael Jesus.pdf" class="button" target="_blank">Baixar Currículo Completo</a>
+                <!-- Links para as opções -->
+                <div class="button-container">
+                    <a href="/pdf/Rafael Jesus.pdf" class="button" download="Curriculo-Rafael-Santos.  pdf">Baixar
+                        Currículo</a>
+
+                    <a href="/pdf/Rafael Jesus.pdf" class="button" target="_blank">Abrir em Nova Aba</a>
+                </div>
             </div>
         </div>
     </section>
@@ -136,7 +148,8 @@
             <p>Email: <a href="mailto:rafaelsantos.js30@gmail.com">rafaelsantos.js30@gmail.com</a>
             </p>
             <p class="texto">
-                WhatsApp: <a href="https://wa.me/5511950965640" target="_blank">(11) 95096-5640</a> Recado: <strong>(11)-5675-5903</strong> 
+                WhatsApp: <a href="https://wa.me/5511950965640" target="_blank">(11) 95096-5640</a> Recado:
+                <strong>(11)-5675-5903</strong>
             </p>
 
         </div>

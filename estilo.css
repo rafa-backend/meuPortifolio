@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
   
 /* Aplica a fonte base para todo o site */
 body {
@@ -79,20 +82,22 @@ nav a:hover {
 }
 
 section {
-    padding: 1rem 1rem;
+    padding: 1.5rem 1rem;
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 120px;
 }
+
 
 
 h2 {
     color: #007bff;
     text-align: center;
-    margin-bottom: 1rem;
+   
 }
 
 .perfil {
+    margin: 20px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -174,6 +179,7 @@ h2 {
     margin: 1rem 0;
     font-size: 1rem;
 }
+
 
 .button {
     background-color:  #0376f1;
