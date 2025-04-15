@@ -86,8 +86,11 @@ section {
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 120px;
-}
+    scroll-margin-top: 100px; /* ou a altura real do seu header */
+ 
 
+
+}
 
 
 h2 {
